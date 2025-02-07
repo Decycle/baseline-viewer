@@ -53,7 +53,9 @@ maps = list((maps_dir / f"{scene}").glob("*.png"))
 # max steps
 max_steps = len(maps)
 # select step
-default_step = st.query_params.get("step", 1)
+default_step = int(st.query_params.get("step", 1))
+default_step = min(max_steps, max(1, default_step))
+
 step = st.sidebar.number_input("Step", 1, max_steps, int(default_step))
 
 
