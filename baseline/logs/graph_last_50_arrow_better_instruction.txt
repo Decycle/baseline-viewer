@@ -1,0 +1,4 @@
+50 cases
+
+Env name: MapGPT_72_scenes_processed, steps: 5.44, lengths: 10.90, nav_error: 6.57, oracle_error: 4.70, sr: 36.00, oracle_sr: 42.00, spl: 30.68
+

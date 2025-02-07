@@ -1,0 +1,81 @@
+{
+    "a_t": {
+        "0": 2,
+        "1": 1,
+        "2": 3,
+        "3": 4,
+        "4": 5,
+        "5": 0
+    },
+    "details": {},
+    "evaluation": {
+        "CLS": [
+            0.5452868221366707
+        ],
+        "DTW": [
+            8.542494829695649
+        ],
+        "SDTW": [
+            0.0
+        ],
+        "action_steps": [
+            5
+        ],
+        "instr_id": [
+            "7177_2"
+        ],
+        "nDTW": [
+            0.5658084671481151
+        ],
+        "nav_error": [
+            4.962387482944881
+        ],
+        "oracle_error": [
+            3.7305200027694845
+        ],
+        "oracle_success": [
+            0.0
+        ],
+        "spl": [
+            0.0
+        ],
+        "success": [
+            0.0
+        ],
+        "trajectory_lengths": [
+            7.445331826106342
+        ],
+        "trajectory_steps": [
+            5
+        ]
+    },
+    "gt_traj": [
+        "a903bfca12df44cd9dad5a2ccb79d7bc",
+        "89eeae92b2fe4b68abb274970a931608",
+        "18e3c05b91774b1b9200fa4b1966bf74",
+        "ad3a2912de974a5690af5050e6ade942",
+        "846c8d973a1a460ca942e15733cddc71"
+    ],
+    "instr_id": "7177_2",
+    "scan": "82sE5b5pLXE",
+    "trajectory": [
+        [
+            "a903bfca12df44cd9dad5a2ccb79d7bc"
+        ],
+        [
+            "89eeae92b2fe4b68abb274970a931608"
+        ],
+        [
+            "586320dcac014267ac7fe23ec4792550"
+        ],
+        [
+            "89eeae92b2fe4b68abb274970a931608"
+        ],
+        [
+            "18e3c05b91774b1b9200fa4b1966bf74"
+        ],
+        [
+            "1226e70df8e44d6596ea46945a62f689"
+        ]
+    ]
+}

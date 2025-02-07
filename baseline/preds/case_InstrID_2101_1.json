@@ -1,0 +1,87 @@
+{
+    "a_t": {
+        "0": 3,
+        "1": 2,
+        "2": 1,
+        "3": 1,
+        "4": 1,
+        "5": 1,
+        "6": 0
+    },
+    "details": {},
+    "evaluation": {
+        "CLS": [
+            0.19355704274276264
+        ],
+        "DTW": [
+            51.33378194885704
+        ],
+        "SDTW": [
+            0.0
+        ],
+        "action_steps": [
+            6
+        ],
+        "instr_id": [
+            "2101_1"
+        ],
+        "nDTW": [
+            0.0867724757646217
+        ],
+        "nav_error": [
+            16.09387829448122
+        ],
+        "oracle_error": [
+            8.134269157566894
+        ],
+        "oracle_success": [
+            0.0
+        ],
+        "spl": [
+            0.0
+        ],
+        "success": [
+            0.0
+        ],
+        "trajectory_lengths": [
+            9.083961571543966
+        ],
+        "trajectory_steps": [
+            6
+        ]
+    },
+    "gt_traj": [
+        "f88ef0b879b04fe5a8d0d4d96f9ebf6d",
+        "c5542c9984bc47b493361ba9e8d5c540",
+        "5dfe8adbc3794bebafeedcd832b04ea4",
+        "d55affbb927443bcb1d4eb451e0e7ebb",
+        "7f870283a3db4ded839990a74bf6e5dc",
+        "c9b12291d12d4d47acbadfe3c587a435",
+        "f58a651ac01e4fb99bafd15400a7d512"
+    ],
+    "instr_id": "2101_1",
+    "scan": "sKLMLpTHeUy",
+    "trajectory": [
+        [
+            "f88ef0b879b04fe5a8d0d4d96f9ebf6d"
+        ],
+        [
+            "c5542c9984bc47b493361ba9e8d5c540"
+        ],
+        [
+            "72b6cd6714a54cb1895409997cb66388"
+        ],
+        [
+            "7c3b9e689c014d5483dcee581d6c53f5"
+        ],
+        [
+            "9b9d929b88994a0eaf69501c2cab3444"
+        ],
+        [
+            "fbd7f3d338eb4ff883275a1c54e61bd9"
+        ],
+        [
+            "c8ecc5b238f143d89d756449616c5798"
+        ]
+    ]
+}
