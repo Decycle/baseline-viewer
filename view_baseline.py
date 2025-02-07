@@ -53,7 +53,8 @@ maps = list((maps_dir / f"{scene}").glob("*.png"))
 # max steps
 max_steps = len(maps)
 # select step
-step = st.sidebar.number_input("Step", 1, max_steps, 1)
+default_step = st.query_params.get("step", 1)
+step = st.sidebar.number_input("Step", 1, max_steps, int(default_step))
 
 
 # load gpt input
